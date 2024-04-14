@@ -1,0 +1,5 @@
+{
+    "root_path" : "/mnt/external_storage/anormal/",
+    "log_path" : "fastapi.log",
+    "device" : "cuda:0"
+}

@@ -1,0 +1,311 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://main.cs" type="Script" id=2]
+
+[node name="Container" type="PanelContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 2 )
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 1593.0
+margin_bottom = 893.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="MainHBox" type="HBoxContainer" parent="."]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 1593.0
+margin_bottom = 893.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MainHBox"]
+margin_right = 92.0
+margin_bottom = 886.0
+
+[node name="ConnectLabel" type="Label" parent="MainHBox/VBoxContainer"]
+margin_right = 92.0
+margin_bottom = 14.0
+text = "Ready"
+
+[node name="IPLineEdit" type="LineEdit" parent="MainHBox/VBoxContainer"]
+margin_top = 18.0
+margin_right = 92.0
+margin_bottom = 42.0
+text = "127.0.0.1:30088"
+
+[node name="ResetModelButton" type="Button" parent="MainHBox/VBoxContainer"]
+margin_top = 46.0
+margin_right = 92.0
+margin_bottom = 66.0
+text = "Model Reset"
+
+[node name="Label2" type="Label" parent="MainHBox/VBoxContainer"]
+margin_top = 70.0
+margin_right = 92.0
+margin_bottom = 84.0
+text = "Leaning Rate"
+
+[node name="LRHScrollBar" type="HScrollBar" parent="MainHBox/VBoxContainer"]
+margin_top = 88.0
+margin_right = 92.0
+margin_bottom = 100.0
+min_value = -6.0
+max_value = -2.0
+value = -4.0
+
+[node name="HSeparator" type="HSeparator" parent="MainHBox/VBoxContainer"]
+margin_top = 104.0
+margin_right = 92.0
+margin_bottom = 108.0
+
+[node name="SubjectScroll" type="ScrollContainer" parent="MainHBox/VBoxContainer"]
+margin_top = 112.0
+margin_right = 92.0
+margin_bottom = 886.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+follow_focus = true
+scroll_horizontal_enabled = false
+
+[node name="SubjectVBox" type="VBoxContainer" parent="MainHBox/VBoxContainer/SubjectScroll"]
+margin_right = 92.0
+margin_bottom = 774.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1
+
+[node name="ButtonBottle" type="Button" parent="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox"]
+margin_top = 209.0
+margin_right = 92.0
+margin_bottom = 229.0
+size_flags_horizontal = 3
+text = "Bottle"
+
+[node name="ButtonCable" type="Button" parent="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox"]
+margin_top = 233.0
+margin_right = 92.0
+margin_bottom = 253.0
+size_flags_horizontal = 3
+text = "Cable"
+
+[node name="ButtonCapsule" type="Button" parent="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox"]
+margin_top = 257.0
+margin_right = 92.0
+margin_bottom = 277.0
+size_flags_horizontal = 3
+text = "Capsule"
+
+[node name="ButtonCarpet" type="Button" parent="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox"]
+margin_top = 281.0
+margin_right = 92.0
+margin_bottom = 301.0
+size_flags_horizontal = 3
+text = "Carpet"
+
+[node name="ButtonGrid" type="Button" parent="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox"]
+margin_top = 305.0
+margin_right = 92.0
+margin_bottom = 325.0
+size_flags_horizontal = 3
+text = "Grid"
+
+[node name="ButtonHazelnut" type="Button" parent="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox"]
+margin_top = 329.0
+margin_right = 92.0
+margin_bottom = 349.0
+size_flags_horizontal = 3
+text = "Hazelnut"
+
+[node name="ButtonLeather" type="Button" parent="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox"]
+margin_top = 353.0
+margin_right = 92.0
+margin_bottom = 373.0
+size_flags_horizontal = 3
+text = "Leather"
+
+[node name="ButtonMetalNut" type="Button" parent="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox"]
+margin_top = 377.0
+margin_right = 92.0
+margin_bottom = 397.0
+size_flags_horizontal = 3
+text = "MetalNut"
+
+[node name="ButtonPill" type="Button" parent="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox"]
+margin_top = 401.0
+margin_right = 92.0
+margin_bottom = 421.0
+size_flags_horizontal = 3
+text = "Pill"
+
+[node name="ButtonScrew" type="Button" parent="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox"]
+margin_top = 425.0
+margin_right = 92.0
+margin_bottom = 445.0
+size_flags_horizontal = 3
+text = "Screw"
+
+[node name="ButtonTile" type="Button" parent="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox"]
+margin_top = 449.0
+margin_right = 92.0
+margin_bottom = 469.0
+size_flags_horizontal = 3
+text = "Tile"
+
+[node name="ButtonToothbrush" type="Button" parent="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox"]
+margin_top = 473.0
+margin_right = 92.0
+margin_bottom = 493.0
+size_flags_horizontal = 3
+text = "Toothbrush"
+
+[node name="ButtonTransistor" type="Button" parent="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox"]
+margin_top = 497.0
+margin_right = 92.0
+margin_bottom = 517.0
+size_flags_horizontal = 3
+text = "Transistor"
+
+[node name="ButtonWood" type="Button" parent="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox"]
+margin_top = 521.0
+margin_right = 92.0
+margin_bottom = 541.0
+size_flags_horizontal = 3
+text = "Wood"
+
+[node name="ButtonZipper" type="Button" parent="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox"]
+margin_top = 545.0
+margin_right = 92.0
+margin_bottom = 565.0
+size_flags_horizontal = 3
+text = "Zipper"
+
+[node name="VSeparator2" type="VSeparator" parent="MainHBox"]
+margin_left = 96.0
+margin_right = 100.0
+margin_bottom = 886.0
+size_flags_horizontal = 0
+size_flags_vertical = 3
+
+[node name="ImageHBox" type="HBoxContainer" parent="MainHBox"]
+margin_left = 104.0
+margin_right = 1586.0
+margin_bottom = 886.0
+size_flags_horizontal = 3
+
+[node name="ImageTrainVBox" type="VBoxContainer" parent="MainHBox/ImageHBox"]
+margin_right = 735.0
+margin_bottom = 886.0
+size_flags_horizontal = 3
+
+[node name="empty" type="Label" parent="MainHBox/ImageHBox/ImageTrainVBox"]
+margin_right = 735.0
+margin_bottom = 14.0
+
+[node name="Label" type="Label" parent="MainHBox/ImageHBox/ImageTrainVBox"]
+margin_top = 18.0
+margin_right = 735.0
+margin_bottom = 32.0
+size_flags_horizontal = 3
+text = "Next Train Image"
+align = 1
+
+[node name="empty2" type="Label" parent="MainHBox/ImageHBox/ImageTrainVBox"]
+margin_top = 36.0
+margin_right = 735.0
+margin_bottom = 50.0
+
+[node name="TrainModelButton" type="Button" parent="MainHBox/ImageHBox/ImageTrainVBox"]
+margin_left = 324.0
+margin_top = 54.0
+margin_right = 411.0
+margin_bottom = 74.0
+size_flags_horizontal = 6
+size_flags_vertical = 0
+text = "Train Image"
+icon_align = 1
+
+[node name="TextureTrain" type="TextureRect" parent="MainHBox/ImageHBox/ImageTrainVBox"]
+margin_top = 78.0
+margin_right = 735.0
+margin_bottom = 886.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 1 )
+expand = true
+stretch_mode = 6
+
+[node name="VSeparator" type="VSeparator" parent="MainHBox/ImageHBox"]
+margin_left = 739.0
+margin_right = 743.0
+margin_bottom = 886.0
+
+[node name="ImageTestVBox" type="VBoxContainer" parent="MainHBox/ImageHBox"]
+margin_left = 747.0
+margin_right = 1482.0
+margin_bottom = 886.0
+size_flags_horizontal = 3
+
+[node name="empty" type="Label" parent="MainHBox/ImageHBox/ImageTestVBox"]
+margin_right = 735.0
+margin_bottom = 14.0
+
+[node name="Label" type="Label" parent="MainHBox/ImageHBox/ImageTestVBox"]
+margin_top = 18.0
+margin_right = 735.0
+margin_bottom = 32.0
+size_flags_horizontal = 3
+text = "Test Image"
+align = 1
+
+[node name="empty2" type="Label" parent="MainHBox/ImageHBox/ImageTestVBox"]
+margin_top = 36.0
+margin_right = 735.0
+margin_bottom = 50.0
+
+[node name="TestChageButton" type="Button" parent="MainHBox/ImageHBox/ImageTestVBox"]
+margin_left = 301.0
+margin_top = 54.0
+margin_right = 434.0
+margin_bottom = 74.0
+size_flags_horizontal = 4
+size_flags_vertical = 0
+text = "Change Test Image"
+
+[node name="TextureTest" type="TextureRect" parent="MainHBox/ImageHBox/ImageTestVBox"]
+margin_top = 78.0
+margin_right = 735.0
+margin_bottom = 886.0
+size_flags_vertical = 3
+texture = ExtResource( 1 )
+expand = true
+stretch_mode = 6
+
+[connection signal="request_completed" from="HTTPRequest" to="." method="OnHTTPRequestRequestCompleted"]
+[connection signal="text_entered" from="MainHBox/VBoxContainer/IPLineEdit" to="." method="OnIPLineEditTextEntered"]
+[connection signal="pressed" from="MainHBox/VBoxContainer/ResetModelButton" to="." method="OnResetModelButtonPressed"]
+[connection signal="value_changed" from="MainHBox/VBoxContainer/LRHScrollBar" to="." method="OnLRHScrollBarValueChanged"]
+[connection signal="pressed" from="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox/ButtonBottle" to="." method="OnSubjectButtonPressed" binds= [ "bottle" ]]
+[connection signal="pressed" from="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox/ButtonCable" to="." method="OnSubjectButtonPressed" binds= [ "cable" ]]
+[connection signal="pressed" from="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox/ButtonCapsule" to="." method="OnSubjectButtonPressed" binds= [ "capsule" ]]
+[connection signal="pressed" from="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox/ButtonCarpet" to="." method="OnSubjectButtonPressed" binds= [ "carpet" ]]
+[connection signal="pressed" from="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox/ButtonGrid" to="." method="OnSubjectButtonPressed" binds= [ "grid" ]]
+[connection signal="pressed" from="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox/ButtonHazelnut" to="." method="OnSubjectButtonPressed" binds= [ "hazelnut" ]]
+[connection signal="pressed" from="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox/ButtonLeather" to="." method="OnSubjectButtonPressed" binds= [ "leather" ]]
+[connection signal="pressed" from="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox/ButtonMetalNut" to="." method="OnSubjectButtonPressed" binds= [ "metal_nut" ]]
+[connection signal="pressed" from="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox/ButtonPill" to="." method="OnSubjectButtonPressed" binds= [ "pill" ]]
+[connection signal="pressed" from="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox/ButtonScrew" to="." method="OnSubjectButtonPressed" binds= [ "screw" ]]
+[connection signal="pressed" from="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox/ButtonTile" to="." method="OnSubjectButtonPressed" binds= [ "tile" ]]
+[connection signal="pressed" from="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox/ButtonToothbrush" to="." method="OnSubjectButtonPressed" binds= [ "toothbrush" ]]
+[connection signal="pressed" from="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox/ButtonTransistor" to="." method="OnSubjectButtonPressed" binds= [ "transistor" ]]
+[connection signal="pressed" from="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox/ButtonWood" to="." method="OnSubjectButtonPressed" binds= [ "wood" ]]
+[connection signal="pressed" from="MainHBox/VBoxContainer/SubjectScroll/SubjectVBox/ButtonZipper" to="." method="OnSubjectButtonPressed" binds= [ "zipper" ]]
+[connection signal="pressed" from="MainHBox/ImageHBox/ImageTrainVBox/TrainModelButton" to="." method="OnTrainModelButtonPressed"]
+[connection signal="pressed" from="MainHBox/ImageHBox/ImageTestVBox/TestChageButton" to="." method="OnTestChageButtonPressed"]

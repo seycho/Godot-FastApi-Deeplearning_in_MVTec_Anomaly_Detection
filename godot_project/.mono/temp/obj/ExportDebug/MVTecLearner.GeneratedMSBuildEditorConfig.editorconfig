@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = MVTecLearner
+build_property.ProjectDir = D:\docker_storage\external_storage1\godot_fastapi\godot_project\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

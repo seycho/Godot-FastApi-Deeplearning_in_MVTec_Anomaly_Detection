@@ -1,0 +1,6 @@
+torch
+torchvision
+fastapi
+scipy
+pydantic
+opencv-python

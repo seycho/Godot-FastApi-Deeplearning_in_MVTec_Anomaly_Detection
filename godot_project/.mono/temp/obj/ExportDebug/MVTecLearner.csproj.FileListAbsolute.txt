@@ -1,0 +1,9 @@
+D:\docker_storage\external_storage1\godot_fastapi\godot_project\.mono\temp\bin\ExportDebug\MVTecLearner.dll
+D:\docker_storage\external_storage1\godot_fastapi\godot_project\.mono\temp\bin\ExportDebug\MVTecLearner.pdb
+D:\docker_storage\external_storage1\godot_fastapi\godot_project\.mono\temp\obj\ExportDebug\MVTecLearner.csproj.AssemblyReference.cache
+D:\docker_storage\external_storage1\godot_fastapi\godot_project\.mono\temp\obj\ExportDebug\MVTecLearner.GeneratedMSBuildEditorConfig.editorconfig
+D:\docker_storage\external_storage1\godot_fastapi\godot_project\.mono\temp\obj\ExportDebug\MVTecLearner.AssemblyInfoInputs.cache
+D:\docker_storage\external_storage1\godot_fastapi\godot_project\.mono\temp\obj\ExportDebug\MVTecLearner.AssemblyInfo.cs
+D:\docker_storage\external_storage1\godot_fastapi\godot_project\.mono\temp\obj\ExportDebug\MVTecLearner.csproj.CoreCompileInputs.cache
+D:\docker_storage\external_storage1\godot_fastapi\godot_project\.mono\temp\obj\ExportDebug\MVTecLearner.dll
+D:\docker_storage\external_storage1\godot_fastapi\godot_project\.mono\temp\obj\ExportDebug\MVTecLearner.pdb
