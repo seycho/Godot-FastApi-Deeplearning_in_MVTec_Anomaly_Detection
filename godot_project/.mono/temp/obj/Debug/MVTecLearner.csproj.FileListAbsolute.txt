@@ -7,3 +7,4 @@ D:\docker_storage\external_storage1\godot_fastapi\godot_project\.mono\temp\obj\D
 D:\docker_storage\external_storage1\godot_fastapi\godot_project\.mono\temp\obj\Debug\MVTecLearner.csproj.CoreCompileInputs.cache
 D:\docker_storage\external_storage1\godot_fastapi\godot_project\.mono\temp\obj\Debug\MVTecLearner.dll
 D:\docker_storage\external_storage1\godot_fastapi\godot_project\.mono\temp\obj\Debug\MVTecLearner.pdb
+D:\docker_storage\external_storage1\godot_fastapi\godot_project\.mono\temp\obj\Debug\MVTecLearner.sourcelink.json
